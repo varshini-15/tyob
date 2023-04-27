@@ -1,0 +1,17 @@
+package com.ob.assessment4;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class FoodConfig {
+	 @Bean 
+	   public Biryani biryani(){
+	      return new Biryani( spellChecker() );
+	   }
+
+	   @Bean 
+	   public SpellChecker spellChecker(){
+	      return new SpellChecker( );
+	   }
+}

@@ -1,0 +1,265 @@
+Questions: 
+	1. Git/Github/gitLab
+	2. Local repository
+	3. merging and branching
+	4. Staging area (preview of the next commit)
+	5. commit
+	6. Remote repository
+	7. Pull 
+	8. Push
+	9. Checkout (for switching between branch)
+
+
+
+	
+Steps:- 
+	1. Installed Git  (https://git-scm.com/downloads)
+	2. Create a folder on desktop or any where 
+	Ex. gitone folder is created on desktop
+	3. Go inside the folder gitpne and create another folder Ex. Project
+	4. Go inside the gitone folder and -> right click -> Git Bash Here
+	5. To check version: - 
+	Command :- git --version |
+	6. To set global user name first time only.
+		Command:- git config --global user.name "Mangesh2423" |
+	7. To set email:
+		Command:-  git config --global user.email "mangesh.i@testyantra.com" |
+	8. To check your user name and email details 
+		Command:- git config --list |
+	9. To change the folder : -  cd  (folder name)
+		a. Ex. cd project | 
+	10. To check the available list of files in the particular project : - ls  |
+		a. You will get list of files available inside the project 
+	11. To Initialized empty Git repository in C:/Users/User/Desktop/gitone/project/.git/     
+		Command:- git init |
+	12. To check untracked files: 
+		Command :- git status |
+	13. To commit operation we have move our files at staging area 
+		Command:-  first check the status by using :- git status |
+	
+	To add the file:
+		Command:- git add (file Name)
+		
+		Command:- Ex.  Git add Test.java |
+	14. Check the status
+		Command:- git status |
+			OutPut:- 
+			Note:- 
+			No commit yet 
+			Changes to be committed 
+			Test.java  to unstage.
+		
+			Untracked files:
+			i. TestTwo.java
+			ii. Folder(TestThree) inside the folder (TestThree.java file is present)
+
+	15. To commit :
+		Command: git commit -m "First Commit"  |
+			("First commit" it is the comment that we have added with the commit)
+			Test.java committed successfully
+	16. Check status:
+		Command:- git status |
+			Untracked files:
+		        (use "git add <file>..." to include in what will be committed)
+		        TeatThree/
+		        TestTwo.java
+	17. To add All files 
+		Command:- git add  -A |
+		
+	18. To commit :
+		Command: git commit -m "Second Commit"  |
+	19. Check status:
+		Command:- git status |
+		OutPut:
+			On branch master
+			nothing to commit, working tree clean
+			
+	20. Make some changes to the file Ex. TestTwo.java 
+	
+	21. Check status:
+		Command:- git status |
+		
+		OutPut:- 
+		modified:   TestTwo.java 
+		
+	22. To undo a particular file for past changes
+		Command:- git checkout (particular file name)
+		Ex. Git checkout TestTwo.java |
+		
+		Output: 
+		Updated 1 path from the index ( File will be undo with past changes )
+		
+	23. To track changes in working directory know the change inside file 
+		Command:- git diff  |
+		
+	24. To check changes done by any person in the file 
+		Command:- git log |
+		
+	25. To check for limited time changes
+		Command: git log -p -2 |
+		
+	26. To check modified file 
+		Command: git log --stat |
+		
+	27. To check list of branch
+	Command: git branch  --list |
+	
+	28. To check object (who made the changes in particular file)
+	Command : git show |
+	
+	29. To show current working directory 
+	Command : git diff |
+	
+	30. To check tracking staging area files 
+	Command : git diff --staged |
+	
+	31. To check tracking committed files 
+	Command : git diff HEAD |
+	
+	32. To check all changes who committed, who make changes including time, date etc.
+	Command : git log |
+
+	33. To check modified file 
+	Command: git log  --stat |
+	
+	34. To remove from staging area and store it back to untracked area 
+	Command:  git rm  --cached  TestTwo.java |
+	
+	35. To delete file permanently
+	Command: git rm  -f  TestTwo.java |
+	
+	
+Branching:
+==================================================
+
+	1. To check list of available branches
+	Command : git branch --list |
+	
+	Note: master branch is our main branch 
+	
+	2. To create a new branch 
+	Command : git branch login |
+	
+	3. To switch to your branch (ex. login)
+	Command : git checkout login |
+	
+	4. Add one file Ex. Login.java 
+	
+	5. Check status 
+	Command : git status |
+	
+	6. Add login file 
+	Command : git add login.java |
+	
+	7. Commit file login.java
+	Command : git commit -m "login file added" |
+
+	8. To delete branch
+	Command : git branch -D login |
+	
+	9. To merge file first need to switch on master branch 
+	Command : git checkout master |
+	
+	To merge login into master 
+	Command : git merge login |
+	
+	10. To create a new branch and switch on it
+	Command : git checkout -b register |
+	
+============================================================================
+
+Add project to git:
+
+	1. The project will be your folder which will have your source code:
+	2. Create a folder that is have your project
+	3. Go to adjust bar and type cmd and enter
+	4. Cmd prompt  will be open with project folder location.
+	CMD: git init |
+	
+	5. To check status 
+	CMD: git status|
+	
+	6. To add file from cmd 
+	dir > test1.txt   (test1.txt file will be created Automatically)
+	
+	7. Check status 
+	CMD: git status| 
+	
+	D:\gitproject>git status
+	On branch master
+	
+	No commits yet
+	
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+	        test1.txt
+	
+	nothing added to commit but untracked files present (use "git add" to track)
+	
+	8. You can use GIT Bash also just go on the project folder and right click and hit Git Bash Here option. You will gate same output as available on cmd.
+	
+	9. To add the file 
+	CMD: git add test1.txt |
+	
+	10. Check status 
+	CMD: git status |
+	O/P
+	$ git status
+	On branch master
+	
+	No commits yet
+	
+	Changes to be committed:
+	  (use "git rm --cached <file>..." to unstage)
+	        new file:   test1.txt  (note. That file will be in green colour which means it is now at staging area )
+
+	11. To commit 
+	CMD: git commit -m "adding test1,txt file"
+	To work on Remote Repository:
+
+	1. Login to git hub account 
+	2. Create new repository
+	3. Name it Ex. Repo2 etc.
+	4. Click on create repository
+	5. Copy the link
+	6. Go to cmd 
+	CMD: git remote add origin and paste that link |
+	Ex.  git remote add origin https://github.com/mangesh2423/repo2.git
+	
+	7. Now need to push the code/file
+	CMD: git push -u origin master
+==================================================================================
+
+Branching and merging:
+
+	1. Go to GitHub account and check branch  available 
+	2. Create new branch
+	CMD: git branch "branch Name" 
+	
+	Note: branch has been created but the branch has not been checkout to start working on the new branch we have to checkout it. 
+	3. Checkout branch:
+	CMD: git checkout "Branch name"
+	
+	4. Add some changes or add one file to the same 
+	5. Then we need to push the code/file
+	CMD: git push -u origin "BranchName"
+	
+	6. Your new branch contains all the files which you have added to new sub Repository but you your master branch can have only previous files.
+	7. To check the status of master branch.
+	CMD: git checkout master
+	
+	8. To check the status of SubBranch.
+	CMD: git checkout "subBranchName"
+	
+	9. To merge subBranch to Master branch note you have to first checkout master branch
+	CMD: git checkout master
+	
+	10. To merge subBranch to Master branch
+	CMD: git merge  "subBranch"
+	
+	11. Once you mearge the SubBranch to master we no need longer subBranch
+	12. To delete subBranch
+	CMD: git branch -d "Barnch Name"   (Note: it will delete it from your local only)
+	
+	13. To delete from the Remote 
+CMD: git push origin --delete (Branch Name) (Note: it will delete it from your Remote)

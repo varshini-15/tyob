@@ -1,0 +1,141 @@
+Increment Questions:
+
+1)
+int i=0;
+i++;
+--i;
+int j=i++  +  --i  +  ++i  +  i--; 
+sop(j); // 2
+sop(i); // 0
+
+2)
+int a=5;
+sop(a>4&&a-->5); // false
+sop(a); //4
+
+3)
+int a=10;
+int b=10;
+int c=a++  +  ++b;
+int d=b++  + ++a  +  c++;
+sop(d); //44
+sop(c); //22
+sop(b); //12
+sop(a); //12
+
+4)
+int a=5;
+a++;
+int b=a>5?6:a++;
+System.out.println(a); // 6
+System.out.println(b); // 6
+
+5)
+int i=4;
+i&=5; 
+System.out.println(++i) // 5
+
+6)
+int a=4;
+a<<=1;
+sop(a++); //8
+
+7)
+int a=10;
+int b=10;
+sop(++a>10&&(b--<10)); //false
+sop(a); //11
+sop(b); // 9
+
+8)
+int i=5;
+int j=++i>5?i++:++i;
+sop(j); // 11
+sop(i); // 9
+
+9)
+int a=4;
+sop((a&=5)>5||(a--<5)); //true
+sop(a); //3
+
+10)
+int a=10;
+a<<=1;
+int b=a>20?a++:++a;
+sop(a); //21
+sop(b); //21
+
+11)
+int i=0;
+i++;
+--i;
+int j=i++  +  --i  +  ++i  +  i--; 
+j--;
+sop(++j); //2
+sop(i--); //0
+
+12)
+int a=5;
+sop(++a>4||a-->5); //true
+sop(a); //6
+
+13)
+int a=10,b=10,c=10;
+a=a++  +  ++b;
+int d=b++  + ++a  +  c++;
+sop(d); //43
+sop(c); //11
+sop(b); //12
+sop(a); //22
+
+14)
+int a=5;
+a++;
+int b=--a>5?6:a++;
+sop(a);  //6
+sop(b);  //5
+
+15)
+int i=4;
+i&=5;
+sop(i<<1); //8
+
+16)
+int a=4;
+a<<=1;
+sop(a>>1); //4
+
+17)
+int a=10,b=10;
+sop(++a>10&&(b--<10)); //false
+sop(a);  //11
+sop(b);  //9
+
+18)
+int i=5;
+int j=i++>5 ? i++ : ++i ;
+sop(j);  //7
+sop(i);  //7
+
+19)
+int a=4;
+sop((a&=5)>5||(a--<5)); //true
+sop(a); //3
+
+20)
+int a=10;
+a>>=1;
+int b=a++>5 ? a++ : ++a;
+sop(a); //7 
+sop(b); //7
+
+
+ 
+
+
+
+
+
+
+
+

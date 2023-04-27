@@ -1,0 +1,21 @@
+package com.ob.assessment5;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ApplicationContext context = new AnnotationConfigApplicationContext(ChildConfig.class);
+    	Child child = context.getBean(Child.class);
+    	System.out.println(child);
+//    	System.out.println(child.getAge());
+//    	System.out.println(child.getName());
+//    	System.out.println(child.getGender());
+//    	System.out.println(child.getFriendsAndGender());
+    }
+}

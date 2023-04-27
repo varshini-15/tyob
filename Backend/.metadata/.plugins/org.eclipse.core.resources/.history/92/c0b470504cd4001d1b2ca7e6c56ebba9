@@ -1,0 +1,16 @@
+package com.ob.assessment5;
+
+public class Dog implements Pet
+{
+
+	public String petType() {
+		System.out.println("Pet - Dog");
+		return null;
+	}
+
+	public String petName() {
+		
+		return null;
+	}
+
+}

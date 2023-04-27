@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>myfirstservlet</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>mfs</servlet-name>
+		<servlet-class>com.ob.myfirstservlet.MyFirstServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mfs</servlet-name>
+		<url-pattern>/link1</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>mss</servlet-name>
+		<servlet-class>com.ob.myfirstservlet.MySecondServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mss</servlet-name>
+		<url-pattern>/link2</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>

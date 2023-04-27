@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/home/onebill/Desktop/onebill training/Backend/assessment5/src/main/java/com/ob/assessment5/Pet.java"/>
+			<item value="/home/onebill/Desktop/onebill training/Backend/assessment3/src/main/java/com/ob/assessment3/CollectionsSpring.java"/>
+			<item value="/home/onebill/Desktop/onebill training/Backend/assessment2"/>
+			<item value="/home/onebill/Desktop/onebill training/Backend/car/src/main/java/com/ob/spring/car/App.java"/>
+			<item value="/home/onebill/Desktop/onebill training/Backend/car"/>
+			<item value="/home/onebill/Desktop/onebill training/Backend/manytoone"/>
+			<item value="/home/onebill/Desktop/onebill training/Backend/mappings"/>
+			<item value="/home/onebill/Desktop/onebill training/Backend/hibernate2"/>
+			<item value="/home/onebill/Desktop/onebill training/Backend/demo1/WebContent/index.html"/>
+			<item value="/home/onebill/Desktop/onebill training/hibernate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.ob.assessment4"/>
+			<item value="com.ob.assessment5"/>
+			<item value="com.ob.assessment3"/>
+			<item value="com.ob.assessment2"/>
+			<item value="com.ob.marshal"/>
+			<item value="com.ob.beanspring.lifecycle"/>
+			<item value="com.ob.hibernate3.manytomany"/>
+			<item value="com.ob.hibernate3.manytoone"/>
+			<item value="com.ob.hibernate3.mappings"/>
+			<item value="com.ob.hibernate3.hibern"/>
+			<item value="com.ob.hibernate1.hibernate2"/>
+		</list>
+		<list key="groupId">
+			<item value="com.ob"/>
+			<item value="com.ob.beanspring"/>
+			<item value="com.ob.hibernate3"/>
+			<item value="com.ob.hibernate1"/>
+		</list>
+		<list key="artifactId">
+			<item value="assessment4"/>
+			<item value="assessment5"/>
+			<item value="assessment3"/>
+			<item value="assessment2"/>
+			<item value="marshal"/>
+			<item value="lifecycle"/>
+			<item value="manytomany"/>
+			<item value="manytoone"/>
+			<item value="mappings"/>
+			<item value="hibern"/>
+			<item value="hibernate2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

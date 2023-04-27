@@ -1,0 +1,15 @@
+package com.ob.assessment4;
+
+import org.springframework.context.annotation.Bean;
+
+public class DrinksConfig {
+	 @Bean 
+	   public CocaCola cocacola(){
+	      return new CocaCola();
+	   }
+
+	   @Bean 
+	   public Idli idli(){
+	      return new Idli();
+	   }
+}

@@ -1,0 +1,12 @@
+package com.ob.assessment5;
+
+public class child {
+	private String name;
+	private int age;
+	private String gender;
+	private int standard;
+	private List<String> hobbies;
+	private Set<String> subjectsStudying;
+	private Map<String, String> friendsAndGender;
+	private Pet pet;
+}

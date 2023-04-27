@@ -1,0 +1,33 @@
+package com.ob.assessment5;
+
+public class ChildConfig {
+	@Configuration
+	public class ChildConfig {
+		@Bean
+		   public Child getChild() {
+		      Child child = new Child();
+		      child.setName("John");
+		      child.setAge(10);
+		      child.setGender("male");
+		      child.setStandard("5th");
+		      child.setHobbies(Arrays.asList("Reading", "Drawing", "Playing cricket"));
+		      child.setSubjectsStudying(new HashSet<>(Arrays.asList("English", "Maths", "Science")));
+		      child.setFriendsAndGender(new HashMap<String, String>() {{
+		         put("Sarah", "female");
+		         put("Mike", "male");
+		         put("Emily", "female");
+		      }});
+		      child.setPet(getCat()); 	//implementation is done here - getCat() or getDog()
+		      return child;
+		   }
+		   
+		   @Bean
+		   public Dog getDog() {
+		      return new Dog();
+		   }
+		   
+		   @Bean
+		   public Cat getCat() {
+		      return new Cat();
+		   }
+}

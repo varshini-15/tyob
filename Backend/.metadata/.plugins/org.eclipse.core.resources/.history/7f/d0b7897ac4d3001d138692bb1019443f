@@ -1,0 +1,15 @@
+package com.ob.assessment2;
+
+public class HumanBeing implements Creature{
+
+	public String creatureName() {
+		String creatureName = "Humans"
+		return creatureName;
+	}
+
+	public String creatureType() {
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.ob.assessment2;
+
+interface Creature {
+	String creatureName();
+	String creatureType();
+}

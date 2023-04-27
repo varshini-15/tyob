@@ -1,0 +1,5 @@
+package com.ob.assessment5;
+
+public class Fish implements Pet{
+
+}

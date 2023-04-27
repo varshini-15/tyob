@@ -1,0 +1,13 @@
+package com.ob.assessment4;
+
+public class Biryani {
+	 private Idly idly;
+
+	   public Biryani(Idly idly){
+	      System.out.println("Inside TextEditor constructor." );
+	      this.spellChecker = spellChecker;
+	   }
+	   public void spellCheck(){
+	      spellChecker.checkSpelling();
+	   }
+}

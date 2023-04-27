@@ -1,0 +1,10 @@
+package com.ob.assessment4;
+
+@Configuration
+@Import(DrinksConfig.class)
+public class ConfigB {
+   @Bean
+   public B b() {
+      return new B(); 
+   }
+}

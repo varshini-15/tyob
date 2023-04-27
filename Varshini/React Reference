@@ -1,0 +1,12 @@
+React JS
+
+
+React :
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  
+
+Babel js : <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.21.3/babel.min.js" integrity="sha512-CLQR0eNf/5JIWYwhNK7UGxMT2gZRouZm46rXlZHIye6Zk9ZWHKrGGbRkdPSzehgzBNSoTN/Sm3NGBjzgGgRpgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+

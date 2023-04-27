@@ -1,0 +1,16 @@
+package com.ob.assessment5;
+
+public class Dog implements Pet
+{
+
+	public String petType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String petName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

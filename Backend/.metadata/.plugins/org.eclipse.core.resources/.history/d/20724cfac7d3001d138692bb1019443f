@@ -1,0 +1,14 @@
+package com.ob.assessment2;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+      Peacock peacock = new Peacock();
+      System.out.println(peacock.creatureName());
+    }
+}

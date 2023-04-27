@@ -1,0 +1,107 @@
+package com.ob.helloworld.demo;
+
+public class Looping {
+	public static void main(String[] args) {
+
+		int row = 4;
+		int star = 1;
+
+		for (int i = 1; i <= row; i++) {
+			for (int k = row; k > i; k--) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= 2 * star - 1; j++) {
+				System.out.print("* ");
+			}
+			star++;
+			System.out.println();
+		}
+
+		System.out.println();
+		for (int i = 1; i <= row; i++) {
+			for (int j = 1; j <= row; j++) {
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+
+		System.out.println();
+		int ch = 65;
+		for (int i = 1; i <= row; i++) {
+			for (int j = 1; j <= row; j++) {
+				System.out.print((char) ch);
+			}
+			ch++;
+			System.out.println();
+		}
+
+		System.out.println();
+		for (int i = 1; i <= row; i++) {
+			for (int k = row; k > i; k--) {
+				System.out.print(" ");
+			}
+			for (int j = 1; j <= i; j++) {
+				System.out.print(i);
+			}
+
+			System.out.println();
+		}
+		System.out.println();
+		for (int i = 1; i <= row; i++) {
+			for (int k = row; k > i; k--) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= 2 * i - 1; j++) {
+				if (j % 2 == 0) {
+					System.out.print("3 ");
+				} else {
+					System.out.print("1 ");
+				}
+
+			}
+
+			System.out.println();
+		}
+
+		System.out.println();
+		for (int i = 1; i <= row; i++) {
+			for (int k = row; k > i; k--) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= 2 * i - 1; j++) {
+				if (j == 1 || j == (2 * i - 1)) {
+					System.out.print("1 ");
+				} else {
+					System.out.print("3 ");
+				}
+
+			}
+
+			System.out.println();
+		}
+
+		System.out.println();
+		for (int i = 1; i <= row; i++) {
+			for (int k = row; k > i; k--) {
+				System.out.print("  ");
+			}
+
+			for (int j = 1; j <= 2 * i - 1; j++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+
+		for (int i = row - 1; i >= 1; i--) {
+			for (int k = row; k > i; k--) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= 2 * i - 1; j++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+
+	}
+
+}

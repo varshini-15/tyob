@@ -1,0 +1,26 @@
+package com.ob.jdbc;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Driver;
+
+public class Jdbcc {
+	public static void main(String[] args) {
+		
+//		try {
+//			Class.forName("com.mysql.jdbc.Driver");
+//		} catch (ClassNotFoundException e) {
+//			
+//			e.printStackTrace();
+//		}
+		Driver driver = new Driver();
+		try {
+			DriverManager.registerDriver(driver);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

@@ -1,0 +1,19 @@
+package com.ob.assessment4;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
+
+@Configuration
+@Import(DrinksConfig.class)
+public class FoodConfig {
+	 @Bean 
+	   public Biryani biryani(){
+	      return new Biryani();
+	   }
+
+	   @Bean 
+	   public Idli idli(){
+	      return new Idli();
+	   }
+}

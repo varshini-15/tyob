@@ -1,0 +1,9 @@
+package com.ob.jdbc;
+
+import com.mysql.jdbc.Driver;
+
+public class Jdbcc {
+	public static void main(String[] args) {
+		class.forName("com.mysql.jdbc.Driver")
+	}
+}

@@ -1,0 +1,13 @@
+package com.ob.assessment4;
+
+public class Biryani {
+	 private Idli idli;
+
+	   public Biryani(Idli idli){
+	      System.out.println("Inside TextEditor constructor." );
+	      this.idli = idli;
+	   }
+	   public void biryaniFunction(){
+		   idli.idlifunction();
+	   }
+}

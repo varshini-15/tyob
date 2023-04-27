@@ -1,0 +1,15 @@
+package com.ob.assessment5;
+
+public class Fish implements Pet{
+
+	public String petType() {
+		System.out.println("Pet - Fish");
+		return null;
+	}
+
+	public String petName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

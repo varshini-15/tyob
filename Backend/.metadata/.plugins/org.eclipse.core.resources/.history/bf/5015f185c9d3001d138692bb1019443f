@@ -1,0 +1,15 @@
+package com.ob.assessment2;
+
+public class Lion implements Creature{
+
+	public String creatureName() {
+		String creatureName = "Asian Lion";
+		return creatureName;
+	}
+
+	public String creatureType() {
+		String creatureType = "Animal";
+		return creatureType;
+	}
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+			    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- <bean class="com.te.spring.BallPen" /> -->
+<bean id="shape1" class="di.interfaceinjection.ShapeSetter">
+    <property name="shape" ref="square"></property>
+   </bean>
+    <bean id="shape2" class="di.interfaceinjection.ShapeSetter">
+    <property name="shape" ref="rectangle"></property>
+   </bean>
+   <bean id="square" class="di.interfaceinjection.Square"></bean>
+   <bean id="rectangle" class="di.interfaceinjection.Rectangle"></bean>
+
+
+</beans>

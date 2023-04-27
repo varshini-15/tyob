@@ -1,0 +1,15 @@
+package com.ob.assessment2;
+
+public class Peacock implements Creature{
+
+	public String creatureName() {
+		String creatureName = "Ramya";
+		return creatureName;
+	}
+
+	public String creatureType() {
+		String creatureType = "Humans";
+		return creatureType;
+	}
+
+}

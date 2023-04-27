@@ -1,0 +1,11 @@
+package com.ob.assessment4;
+
+public class MilkShake {
+	 public CocaCola(){
+	      System.out.println("Inside CocaCola constructor." );
+	      
+	   }
+	   public void getCocaCola(){
+		   System.out.println("getCocaCola");
+	   }
+}

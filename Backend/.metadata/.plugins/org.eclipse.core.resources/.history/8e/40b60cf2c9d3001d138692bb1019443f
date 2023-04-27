@@ -1,0 +1,14 @@
+package com.ob.assessment2;
+
+public class Earth {
+
+    private Creature creature;
+
+    public Shape getShape() {
+        return shape;
+    }
+
+    public void setShape(Shape shape) {
+        this.shape = shape;
+    }
+}

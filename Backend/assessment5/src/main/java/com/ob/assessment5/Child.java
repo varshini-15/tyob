@@ -1,0 +1,22 @@
+package com.ob.assessment5;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+@Data
+public class Child {
+	private String name;
+	private int age;
+	private String gender;
+	private int standard;
+	private List<String> hobbies;
+	private Set<String> subjectsStudying;
+	private Map<String, String> friendsAndGender;
+
+	private Pet pet;
+}
