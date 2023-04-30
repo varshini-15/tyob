@@ -1,0 +1,17 @@
+package com.ob.helloworld.demo;
+
+
+
+public class Variables {
+	int instanceVariable = 1;
+	//static
+	public static void main(String[] args) {
+	int localVariable = 2;
+	System.out.println(localVariable);
+	
+	Variables variables = new Variables();
+	System.out.println(variables.instanceVariable);
+}
+}
+
+

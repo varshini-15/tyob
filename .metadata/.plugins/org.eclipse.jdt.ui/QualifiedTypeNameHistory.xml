@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.ob.classes.ArithTest"/>
+<fullyQualifiedTypeName name="com.ob.classes.ConstructMain"/>
+<fullyQualifiedTypeName name="com.ob.classes.Constructors"/>
+<fullyQualifiedTypeName name="com.ob.classes.PolyOverloading"/>
+<fullyQualifiedTypeName name="Rectangle"/>
+<fullyQualifiedTypeName name="com.ob.classes.Outer.Inner"/>
+<fullyQualifiedTypeName name="com.ob.classes.Outer.Inner.Static_inner"/>
+<fullyQualifiedTypeName name="com.ob.abstracts.exercise.AbstractUser"/>
+<fullyQualifiedTypeName name="com.ob.abstracts.exercise.AbstractManager"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.ob.interfaces.exercises.ClassInterface.ClInterface"/>
+<fullyQualifiedTypeName name="com.ob.interfaces.exercises.ClassInterfaceImp"/>
+<fullyQualifiedTypeName name="com.ob.interfaces.exercises.Library.Book"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="com.ob.object.exercises.Inter"/>
+<fullyQualifiedTypeName name="com.ob.interfacessss.exercise.LinuxOSInterface"/>
+<fullyQualifiedTypeName name="com.ob.interfacessss.exercise.UpcastParent"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="com.ob.comparable.demo.StudentComp"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="com.ob.collections.demo.Student"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.ob.streamapi.demp.Employee"/>
+<fullyQualifiedTypeName name="com.ob.streamapi.demp.Employee.Rating"/>
+<fullyQualifiedTypeName name="com.ob.streamapi.demp.Employee.Gender"/>
+<fullyQualifiedTypeName name="com.ob.streamapi.demp.Gender"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="com.ob.interfaces.exercises.Sample.Inner"/>
+</qualifiedTypeNameHistroy>

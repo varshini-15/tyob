@@ -1,0 +1,10 @@
+package com.ob.helloworld.demo;
+
+public class duplicate {
+	public static void main(String[] args) {
+		char[] ch = {1,2,3,2,4,5,1};
+		
+				
+		}
+	}
+}

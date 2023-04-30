@@ -1,0 +1,7 @@
+package com.ob.helloworld.demo;
+
+public class duplicate {
+	public static void main(String[] args) {
+
+	}
+}

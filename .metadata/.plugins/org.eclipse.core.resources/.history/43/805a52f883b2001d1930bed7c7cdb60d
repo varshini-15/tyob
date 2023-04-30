@@ -1,0 +1,20 @@
+package com.ob.sets.demo;
+
+//import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class LearnTreeSet {
+	public static void main(String[] args) {
+		Set<Student1> set = new TreeSet<Student1>();
+		set.add(new Student1("HashSet1", 21, 97.00));
+		set.add(new Student1("HashSet2", 20, 98.00));
+		set.add(new Student1("HashSet1", 21, 97.00));
+		set.add(new Student1("HashSet2", 20, 98.00));
+		set.add(new Student1("HashSet3", 22, 98.00));
+		set.add(new Student1("HashSet4", 24, 98.00));
+		set.add(null);
+
+		set.forEach(s -> System.out.println(s));
+	}
+}

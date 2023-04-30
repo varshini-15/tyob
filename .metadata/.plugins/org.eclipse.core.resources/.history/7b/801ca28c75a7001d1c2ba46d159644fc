@@ -1,0 +1,11 @@
+package com.ob.helloworld.demo;
+import java.util.*;
+public class Test {
+public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	int x,y;
+	int a = 9,b = 7;
+	System.out.println(x+y);
+	System.out.println(a+b);
+}
+}

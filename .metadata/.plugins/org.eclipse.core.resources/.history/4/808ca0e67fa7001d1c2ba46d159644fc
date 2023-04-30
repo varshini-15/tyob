@@ -1,0 +1,25 @@
+package com.ob.helloworld.demo;
+
+import java.util.*;
+
+public class Variables {
+	static Scanner sc = new Scanner(System.in);
+
+	int instanceVariable = sc.nextInt();
+	static int staticVariable = sc.nextInt();
+
+	public static void main(String[] args) {
+
+		int localVariable = sc.nextInt();
+		
+
+		//78
+		System.out.println("Local Variable :" + localVariable);
+
+		Variables variables = new Variables();
+
+		System.out.println("Instance Variable : " + variables.instanceVariable);
+		System.out.println("Static Variable(using object reference) : " + variables.staticVariable);
+		System.out.println("Static Variable : " + Variables.staticVariable);
+	}
+}
